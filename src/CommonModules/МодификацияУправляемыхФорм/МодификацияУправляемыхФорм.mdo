@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a520d20a-e755-4652-9861-d978d79a050b">
+  <name>МодификацияУправляемыхФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модификация управляемых форм</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+</mdclass:CommonModule>
