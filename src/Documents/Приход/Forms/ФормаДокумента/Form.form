@@ -220,6 +220,22 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <choiceParameters>
+              <name>Проверка1</name>
+              <value xsi:type="form:FormChoiceListDesTimeValue">
+                <value xsi:type="core:NumberValue">
+                  <value>1</value>
+                </value>
+              </value>
+            </choiceParameters>
+            <choiceParameters>
+              <name>Проверка2</name>
+              <value xsi:type="form:FormChoiceListDesTimeValue">
+                <value xsi:type="core:StringValue">
+                  <value>Проверка2</value>
+                </value>
+              </value>
+            </choiceParameters>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
