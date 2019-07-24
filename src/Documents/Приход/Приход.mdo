@@ -94,6 +94,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="9d4a5c21-1abf-4af6-ba90-2be4f8141021">
+    <name>МОД_Утвержден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утвержден</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="6f42f9ea-9628-4248-9a40-8a8bec849d98">
     <name>ФормаДокумента</name>
     <synonym>
