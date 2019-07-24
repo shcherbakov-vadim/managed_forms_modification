@@ -6,5 +6,7 @@
     <value>Модификация управляемых форм</value>
   </synonym>
   <comment></comment>
+  <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>
