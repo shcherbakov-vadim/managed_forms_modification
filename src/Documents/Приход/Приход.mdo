@@ -76,6 +76,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.Приход.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Приход.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="f73d09fd-272a-4f5a-bc3c-2d4a9b7f7119">
@@ -113,6 +114,15 @@
       <value>Форма документа</value>
     </synonym>
     <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8be34165-3437-465e-8684-266d9ade0644">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -274,5 +284,12 @@
       <value>Форма документа (модификация)</value>
     </synonym>
     <comment></comment>
+  </templates>
+  <templates uuid="6147c997-e7f7-4d5a-8ad6-b54eef2f4b0c">
+    <name>МОД_Модификация_ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>МОД модификация форма списка</value>
+    </synonym>
   </templates>
 </mdclass:Document>
