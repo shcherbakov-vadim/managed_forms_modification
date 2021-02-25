@@ -1030,6 +1030,12 @@
 			<c>
 				<c>
 					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>%Количество</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -1808,6 +1814,7 @@
 	</rightFooter>
 	<templateMode>true</templateMode>
 	<height>30</height>
+	<vgRows>30</vgRows>
 	<merge>
 		<r>0</r>
 		<c>0</c>
@@ -1860,6 +1867,8 @@
 			<type>Rows</type>
 			<beginRow>28</beginRow>
 			<endRow>29</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 			<columnsID>bd55f1ea-846d-49fb-a9fd-2b2d8ee68d6d</columnsID>
 		</area>
 	</namedItem>
@@ -1869,6 +1878,8 @@
 			<type>Rows</type>
 			<beginRow>21</beginRow>
 			<endRow>27</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 			<columnsID>df225219-75fe-4886-9fda-c04221564f0b</columnsID>
 		</area>
 	</namedItem>
@@ -1878,6 +1889,8 @@
 			<type>Rows</type>
 			<beginRow>0</beginRow>
 			<endRow>20</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<format>
