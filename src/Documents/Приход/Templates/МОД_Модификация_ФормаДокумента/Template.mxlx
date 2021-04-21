@@ -10,7 +10,7 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>15</size>
+		<size>16</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -48,7 +48,13 @@
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>6</index>
+			<index>9</index>
+			<column>
+				<formatIndex>7</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>8</index>
 			<column>
 				<formatIndex>0</formatIndex>
 			</column>
@@ -57,12 +63,6 @@
 			<index>7</index>
 			<column>
 				<formatIndex>0</formatIndex>
-			</column>
-		</columnsItem>
-		<columnsItem>
-			<index>8</index>
-			<column>
-				<formatIndex>7</formatIndex>
 			</column>
 		</columnsItem>
 	</columns>
@@ -200,7 +200,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>МестоРасположения()</v8:content>
+							<v8:content>Родитель()</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -211,7 +211,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>[ПриИзменении]</v8:content>
+							<v8:content>МестоРасположения()</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -222,7 +222,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>(ТолькоПросмотр)</v8:content>
+							<v8:content>[ПриИзменении]</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -233,7 +233,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ПараметрыВыбора()</v8:content>
+							<v8:content>(ТолькоПросмотр)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -244,7 +244,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Заголовок</v8:content>
+							<v8:content>ПараметрыВыбора()</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -255,7 +255,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ИмяКоманды</v8:content>
+							<v8:content>Заголовок</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -263,6 +263,17 @@
 			<c>
 				<c>
 					<f>22</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ИмяКоманды</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -358,6 +369,11 @@
 			<c>
 				<c>
 					<f>8</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -370,6 +386,84 @@
 	</rowsItem>
 	<rowsItem>
 		<index>2</index>
+		<row>
+			<formatIndex>8</formatIndex>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Реквизит2</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>24</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Форма</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>3</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -433,10 +527,15 @@
 					<f>8</f>
 				</c>
 			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>3</index>
+		<index>4</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -504,6 +603,11 @@
 			<c>
 				<c>
 					<f>8</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -515,7 +619,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>4</index>
+		<index>5</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -578,6 +682,11 @@
 			</c>
 			<c>
 				<c>
+					<f>8</f>
+				</c>
+			</c>
+			<c>
+				<c>
 					<f>7</f>
 				</c>
 			</c>
@@ -594,7 +703,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>5</index>
+		<index>6</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -657,6 +766,11 @@
 			</c>
 			<c>
 				<c>
+					<f>8</f>
+				</c>
+			</c>
+			<c>
+				<c>
 					<f>7</f>
 				</c>
 			</c>
@@ -673,7 +787,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>6</index>
+		<index>7</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -732,6 +846,11 @@
 			<c>
 				<c>
 					<f>8</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -764,7 +883,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>7</index>
+		<index>8</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -823,6 +942,11 @@
 			<c>
 				<c>
 					<f>8</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -849,7 +973,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>8</index>
+		<index>9</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -898,6 +1022,11 @@
 			</c>
 			<c>
 				<c>
+					<f>1</f>
+				</c>
+			</c>
+			<c>
+				<c>
 					<f>8</f>
 					<tl>
 						<v8:item>
@@ -908,7 +1037,7 @@
 				</c>
 			</c>
 			<c>
-				<i>12</i>
+				<i>13</i>
 				<c>
 					<f>8</f>
 				</c>
@@ -916,7 +1045,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>9</index>
+		<index>10</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -943,7 +1072,12 @@
 				</c>
 			</c>
 			<c>
-				<i>12</i>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+			<c>
+				<i>13</i>
 				<c>
 					<f>8</f>
 				</c>
@@ -951,7 +1085,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>10</index>
+		<index>11</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -987,7 +1121,12 @@
 				</c>
 			</c>
 			<c>
-				<i>9</i>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+			<c>
+				<i>10</i>
 				<c>
 					<f>0</f>
 					<tl>
@@ -999,7 +1138,7 @@
 				</c>
 			</c>
 			<c>
-				<i>12</i>
+				<i>13</i>
 				<c>
 					<f>8</f>
 				</c>
@@ -1007,7 +1146,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>11</index>
+		<index>12</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1052,6 +1191,11 @@
 			<c>
 				<c>
 					<f>1</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1061,7 +1205,7 @@
 				</c>
 			</c>
 			<c>
-				<i>12</i>
+				<i>13</i>
 				<c>
 					<f>8</f>
 				</c>
@@ -1069,7 +1213,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>12</index>
+		<index>13</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1099,6 +1243,11 @@
 				<i>6</i>
 				<c>
 					<f>1</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1108,7 +1257,7 @@
 				</c>
 			</c>
 			<c>
-				<i>12</i>
+				<i>13</i>
 				<c>
 					<f>8</f>
 					<tl>
@@ -1122,7 +1271,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>13</index>
+		<index>14</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1140,7 +1289,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>14</index>
+		<index>15</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1169,7 +1318,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>15</index>
+		<index>16</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1210,7 +1359,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>16</index>
+		<index>17</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1248,7 +1397,7 @@
 				</c>
 			</c>
 			<c>
-				<i>11</i>
+				<i>12</i>
 				<c>
 					<f>1</f>
 				</c>
@@ -1256,7 +1405,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>17</index>
+		<index>18</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1283,7 +1432,7 @@
 				</c>
 			</c>
 			<c>
-				<i>11</i>
+				<i>12</i>
 				<c>
 					<f>1</f>
 					<tl>
@@ -1292,52 +1441,6 @@
 							<v8:content>МОД_РассчитатьПроценты</v8:content>
 						</v8:item>
 					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>18</index>
-		<row>
-			<formatIndex>8</formatIndex>
-			<c>
-				<c>
-					<f>8</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>МОД_Составной</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<i>4</i>
-				<c>
-					<f>8</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ПолеФормы</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>1</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>МОД_Составной</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<i>11</i>
-				<c>
-					<f>1</f>
 				</c>
 			</c>
 		</row>
@@ -1352,6 +1455,52 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>МОД_Составной</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПолеФормы</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>МОД_Составной</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>12</i>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>20</index>
+		<row>
+			<formatIndex>8</formatIndex>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>МОД_СписокЗначений1</v8:content>
 						</v8:item>
 					</tl>
@@ -1381,7 +1530,7 @@
 				</c>
 			</c>
 			<c>
-				<i>11</i>
+				<i>12</i>
 				<c>
 					<f>1</f>
 					<tl>
@@ -1395,7 +1544,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>20</index>
+		<index>21</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1421,13 +1570,13 @@
 				</c>
 			</c>
 			<c>
-				<i>11</i>
+				<i>12</i>
 				<c>
 					<f>1</f>
 				</c>
 			</c>
 			<c>
-				<i>13</i>
+				<i>14</i>
 				<c>
 					<f>0</f>
 					<tl>
@@ -1452,7 +1601,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>21</index>
+		<index>22</index>
 		<row>
 			<formatIndex>8</formatIndex>
 			<c>
@@ -1472,7 +1621,7 @@
 				</c>
 			</c>
 			<c>
-				<i>11</i>
+				<i>12</i>
 				<c>
 					<f>1</f>
 				</c>
@@ -1480,7 +1629,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>22</index>
+		<index>23</index>
 		<row>
 			<columnsID>df225219-75fe-4886-9fda-c04221564f0b</columnsID>
 			<formatIndex>8</formatIndex>
@@ -1553,7 +1702,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>23</index>
+		<index>24</index>
 		<row>
 			<columnsID>df225219-75fe-4886-9fda-c04221564f0b</columnsID>
 			<formatIndex>8</formatIndex>
@@ -1587,7 +1736,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>24</index>
+		<index>25</index>
 		<row>
 			<columnsID>df225219-75fe-4886-9fda-c04221564f0b</columnsID>
 			<formatIndex>8</formatIndex>
@@ -1615,7 +1764,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>25</index>
+		<index>26</index>
 		<row>
 			<columnsID>df225219-75fe-4886-9fda-c04221564f0b</columnsID>
 			<formatIndex>8</formatIndex>
@@ -1649,7 +1798,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>26</index>
+		<index>27</index>
 		<row>
 			<columnsID>df225219-75fe-4886-9fda-c04221564f0b</columnsID>
 			<formatIndex>8</formatIndex>
@@ -1705,7 +1854,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>27</index>
+		<index>28</index>
 		<row>
 			<columnsID>df225219-75fe-4886-9fda-c04221564f0b</columnsID>
 			<formatIndex>8</formatIndex>
@@ -1739,7 +1888,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>28</index>
+		<index>29</index>
 		<row>
 			<columnsID>df225219-75fe-4886-9fda-c04221564f0b</columnsID>
 			<formatIndex>8</formatIndex>
@@ -1794,7 +1943,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>29</index>
+		<index>30</index>
 		<row>
 			<columnsID>bd55f1ea-846d-49fb-a9fd-2b2d8ee68d6d</columnsID>
 			<formatIndex>8</formatIndex>
@@ -1834,7 +1983,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>30</index>
+		<index>31</index>
 		<row>
 			<columnsID>bd55f1ea-846d-49fb-a9fd-2b2d8ee68d6d</columnsID>
 			<formatIndex>8</formatIndex>
@@ -1892,8 +2041,8 @@
 		<f>8</f>
 	</rightFooter>
 	<templateMode>true</templateMode>
-	<height>31</height>
-	<vgRows>31</vgRows>
+	<height>32</height>
+	<vgRows>32</vgRows>
 	<merge>
 		<r>0</r>
 		<c>0</c>
@@ -1911,17 +2060,17 @@
 		<w>1</w>
 	</verticalUnmerge>
 	<verticalUnmerge>
-		<r>23</r>
+		<r>26</r>
+		<c>0</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>29</r>
 		<c>0</c>
 		<w>1</w>
 	</verticalUnmerge>
 	<verticalUnmerge>
 		<r>27</r>
-		<c>0</c>
-		<w>1</w>
-	</verticalUnmerge>
-	<verticalUnmerge>
-		<r>26</r>
 		<c>0</c>
 		<w>1</w>
 	</verticalUnmerge>
@@ -1936,7 +2085,7 @@
 		<w>1</w>
 	</verticalUnmerge>
 	<verticalUnmerge>
-		<r>22</r>
+		<r>23</r>
 		<c>0</c>
 		<w>1</w>
 	</verticalUnmerge>
@@ -1944,8 +2093,8 @@
 		<name>Команды</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>29</beginRow>
-			<endRow>30</endRow>
+			<beginRow>30</beginRow>
+			<endRow>31</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 			<columnsID>bd55f1ea-846d-49fb-a9fd-2b2d8ee68d6d</columnsID>
@@ -1955,8 +2104,8 @@
 		<name>Реквизиты</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>22</beginRow>
-			<endRow>28</endRow>
+			<beginRow>23</beginRow>
+			<endRow>29</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 			<columnsID>df225219-75fe-4886-9fda-c04221564f0b</columnsID>
@@ -1967,7 +2116,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>0</beginRow>
-			<endRow>21</endRow>
+			<endRow>22</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
