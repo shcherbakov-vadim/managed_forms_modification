@@ -1,9 +1,9 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 // Copyright (c) 2019-2021, Щербаков Вадим, chtcherbakov.vadim@gmail.com
 // Все права защищены. Эта программа и сопроводительные материалы предоставляются 
-// в соответствии с условиями лицензии Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+// в соответствии с условиями лицензии Attribution 4.0 International (CC BY 4.0)
 // Текст лицензии доступен по ссылке:
-// https://creativecommons.org/licenses/by-sa/4.0/legalcode
+// https://creativecommons.org/licenses/by/4.0/legalcode
 // Ссылка на репозитарий:
 // https://github.com/shcherbakov-vadim/managed_forms_modification.git
 
