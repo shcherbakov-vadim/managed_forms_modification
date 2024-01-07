@@ -249,17 +249,33 @@
     </attributes>
   </tabularSections>
   <templates uuid="805286cd-f58a-4fc6-827c-54fc6b1989c9">
-    <name>МОД_Модификация_ФормаДокумента</name>
+    <name>OLD_МОД_Модификация_ФормаДокумента</name>
     <synonym>
       <key>ru</key>
       <value>Форма документа (модификация)</value>
     </synonym>
   </templates>
   <templates uuid="6147c997-e7f7-4d5a-8ad6-b54eef2f4b0c">
+    <name>OLD_МОД_Модификация_ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка (модификация)</value>
+    </synonym>
+  </templates>
+  <templates uuid="36fd1e12-64cc-4b35-88b4-863f9d9ed44f">
+    <name>МОД_Модификация_ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>МОД модификация форма документа</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="e76977b2-d8e8-4fa2-851b-fa9642126f39">
     <name>МОД_Модификация_ФормаСписка</name>
     <synonym>
       <key>ru</key>
       <value>МОД модификация форма списка</value>
     </synonym>
+    <templateType>TextDocument</templateType>
   </templates>
 </mdclass:Document>
