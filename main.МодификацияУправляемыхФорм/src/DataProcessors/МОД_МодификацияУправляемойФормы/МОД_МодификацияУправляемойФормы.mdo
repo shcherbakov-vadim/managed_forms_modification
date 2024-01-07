@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e97dbed-a576-425b-bf7c-1013f2ec5e09">
+  <producedTypes>
+    <objectType typeId="f1af20d6-8c77-45ad-8e24-9b5961d0eb71" valueTypeId="bf610947-7dbd-45df-97d7-cc93d836b56e"/>
+    <managerType typeId="650097be-f9c7-41e7-bac5-98ed9b92af7d" valueTypeId="8ce742db-c4c2-45e7-a534-8d8c42d079fd"/>
+  </producedTypes>
+  <name>МОД_МодификацияУправляемойФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модификация управляемой формы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МОД_МодификацияУправляемойФормы.Form.Форма</defaultForm>
+  <forms uuid="8cef06ce-7ad6-4036-b871-3e221b6e5058">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="f311edc5-357e-4bd8-b504-7fce3ba45fdd">
+    <name>МодификацияУправляемойФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модификация управляемой формы</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

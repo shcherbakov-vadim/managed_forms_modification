@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="182aff6b-be9c-4113-b4c6-8fec8c3c9821">
+  <name>МодификацияУправляемыхФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модификация управляемых форм</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <sessionModule>Extended</sessionModule>
+    <defaultLanguage>Checked</defaultLanguage>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="fdd07ff7-c3c2-4375-80a0-cfac06170123"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="6a0bc131-255a-4f9c-8064-fcb81f682446"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="34fd1549-544c-4431-aafd-f4e2e36c3ae7"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="e59045fd-f94f-4202-a20a-551209eae9f3"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c6a25b08-fdc4-44f6-b1be-262e4343cc9c"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e5416589-fee0-40b1-92d7-9554f2307da4"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="6f70993b-2c9e-4a22-a727-2f628d0a9def"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>МОД_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.МОД_ОсновнаяРоль</defaultRoles>
+  <vendor>Щербаков Вадим</vendor>
+  <version>1.0.1.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>Copyright (c) 2024, Щербаков Вадим, chtcherbakov.vadim@gmail.com</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/shcherbakov-vadim</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/shcherbakov-vadim/managed_forms_modification</value>
+  </configurationInformationAddress>
+  <languages uuid="7786011f-0a88-4ed8-b979-3faf8b1792f8">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <sessionParameters>SessionParameter.МОД_АдресМакетаИзменений</sessionParameters>
+  <sessionParameters>SessionParameter.МОД_ИмяПоследнейФормы</sessionParameters>
+  <roles>Role.МОД_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.МОД_МодификацияУправляемыхФорм</commonModules>
+  <dataProcessors>DataProcessor.МОД_МодификацияУправляемойФормы</dataProcessors>
+</mdclass:Configuration>
