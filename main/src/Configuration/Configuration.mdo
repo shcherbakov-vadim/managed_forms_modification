@@ -38,5 +38,4 @@
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.Приход</documents>
-  <dataProcessors>DataProcessor.ПроверкаМодификацииУправляемыхФорм</dataProcessors>
 </mdclass:Configuration>

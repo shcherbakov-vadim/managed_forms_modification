@@ -157,7 +157,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.ПроверкаМодификацииУправляемыхФорм</types>
+      <types>DataProcessorObject.МОД_ПроверкаМодифицированныхФорм</types>
     </valueType>
     <view>
       <common>true</common>
