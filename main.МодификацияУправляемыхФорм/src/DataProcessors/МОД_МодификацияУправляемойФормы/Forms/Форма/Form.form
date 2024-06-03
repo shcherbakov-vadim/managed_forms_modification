@@ -291,6 +291,24 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ТипДокумента</name>
+    <title>
+      <key>ru</key>
+      <value>Тип документа</value>
+    </title>
+    <id>4</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ПолучитьJSON</name>
     <title>
