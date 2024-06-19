@@ -4,7 +4,7 @@
 // в соответствии с условиями лицензии Attribution 4.0 International (CC BY 4.0)
 // Текст лицензии доступен по ссылке:
 // https://creativecommons.org/licenses/by/4.0/legalcode
-// Ссылка на репозитарий:
+// Ссылка на репозиторий:
 // https://github.com/shcherbakov-vadim/managed_forms_modification.git
 
 #Если Сервер Тогда
