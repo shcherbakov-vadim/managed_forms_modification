@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc7dbe6a-5076-4a28-8e45-1101b3e9c857">
+  <name>МОД_МодификацияУправляемыхФормВызовСервераПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>МОД модификация управляемых форм вызов сервера повт исп</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

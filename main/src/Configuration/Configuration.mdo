@@ -35,6 +35,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <commonModules>CommonModule.МОД_МодификацияУправляемыхФорм</commonModules>
+  <commonModules>CommonModule.МОД_МодификацияУправляемыхФормВызовСервераПовтИсп</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.Приход</documents>
