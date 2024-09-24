@@ -586,7 +586,7 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <items xsi:type="form:FormField">
-          <name>ТаблицаПоказателиИмя</name>
+          <name>ТаблицаПоказателиПоказатель</name>
           <id>63</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -594,14 +594,14 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>ТаблицаПоказатели.Имя</segments>
+            <segments>ТаблицаПоказатели.Показатель</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
             <name>ТаблицаПоказателиИмяПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ТаблицаПоказателиИмяРасширеннаяПодсказка</name>
+            <name>ТаблицаПоказателиПоказательРасширеннаяПодсказка</name>
             <id>65</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -616,7 +616,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ТаблицаПоказателиИмяКонтекстноеМеню</name>
+            <name>ТаблицаПоказателиПоказательКонтекстноеМеню</name>
             <id>64</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -677,6 +677,56 @@
           </contextMenu>
           <type>InputField</type>
           <editMode>EnterOnInput</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ТаблицаПоказателиСписокЗначений</name>
+          <id>74</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ТаблицаПоказатели.СписокЗначений</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ТаблицаПоказателиСписокЗначенийРасширеннаяПодсказка</name>
+            <id>76</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ТаблицаПоказателиСписокЗначенийКонтекстноеМеню</name>
+            <id>75</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -1130,15 +1180,14 @@
       <common>true</common>
     </edit>
     <columns>
-      <name>Имя</name>
+      <name>Показатель</name>
       <title>
         <key>ru</key>
-        <value>Имя</value>
+        <value>Показатель</value>
       </title>
       <id>1</id>
       <valueType>
-        <types>String</types>
-        <stringQualifiers/>
+        <types>CatalogRef.Показатели</types>
       </valueType>
       <view>
         <common>true</common>
@@ -1168,6 +1217,37 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>СписокЗначений</name>
+      <title>
+        <key>ru</key>
+        <value>Список значений</value>
+      </title>
+      <id>5</id>
+      <valueType>
+        <types>ValueList</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+  </attributes>
+  <attributes>
+    <name>Реквизит1</name>
+    <id>10</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>Печать</name>

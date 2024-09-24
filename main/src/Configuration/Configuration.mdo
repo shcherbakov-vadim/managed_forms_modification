@@ -38,5 +38,6 @@
   <commonModules>CommonModule.МОД_МодификацияУправляемыхФормВызовСервераПовтИсп</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Показатели</catalogs>
   <documents>Document.Приход</documents>
 </mdclass:Configuration>
