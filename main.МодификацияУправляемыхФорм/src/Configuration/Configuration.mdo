@@ -29,7 +29,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.МОД_ОсновнаяРоль</defaultRoles>
   <vendor>Щербаков Вадим</vendor>
-  <version>1.0.2.2</version>
+  <version>1.0.3.1</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <copyright>
     <key>ru</key>
@@ -57,4 +57,5 @@
   <commonModules>CommonModule.МОД_МодификацияУправляемыхФорм</commonModules>
   <dataProcessors>DataProcessor.МОД_МодификацияУправляемойФормы</dataProcessors>
   <dataProcessors>DataProcessor.МОД_ПроверкаМодифицированныхФорм</dataProcessors>
+  <dataProcessors>DataProcessor.МОД_КонвертацияМакетовИзменений</dataProcessors>
 </mdclass:Configuration>

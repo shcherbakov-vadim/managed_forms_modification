@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee033cdc-1796-4ce8-bc77-b4dd352289ee">
+  <producedTypes>
+    <objectType typeId="977aef8e-0d3d-44c1-8e12-d87c2a9f7d60" valueTypeId="af0a6806-1ff8-4849-a274-1c7248bc8030"/>
+    <managerType typeId="55aa9be0-9b0a-407c-b7fe-53aaca2a36de" valueTypeId="67a0f3e3-5cc6-45d7-aaab-c0a4fb937159"/>
+  </producedTypes>
+  <name>МОД_КонвертацияМакетовИзменений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конвертация макетов изменений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МОД_КонвертацияМакетовИзменений.Form.Форма</defaultForm>
+  <forms uuid="76ee7432-9c55-4fb0-8e73-7a27bab0befa">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
