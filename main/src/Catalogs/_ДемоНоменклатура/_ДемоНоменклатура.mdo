@@ -7,14 +7,14 @@
     <listType typeId="b0a6178c-58b9-47c3-9156-2d69bd2ffd6a" valueTypeId="7fbca269-9ac8-4551-ad18-ea5846d60235"/>
     <managerType typeId="48273c23-7543-41d8-8706-232153be49be" valueTypeId="0e7f1211-e095-407a-84fc-8009e020ff85"/>
   </producedTypes>
-  <name>Номенклатура</name>
+  <name>_ДемоНоменклатура</name>
   <synonym>
     <key>ru</key>
-    <value>Номенклатура</value>
+    <value>Демо: Номенклатура</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog._ДемоНоменклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog._ДемоНоменклатура.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>

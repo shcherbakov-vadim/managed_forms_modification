@@ -1164,7 +1164,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.Приход</types>
+      <types>DocumentObject._ДемоПриход</types>
     </valueType>
     <view>
       <common>true</common>
@@ -1220,7 +1220,7 @@
       </title>
       <id>1</id>
       <valueType>
-        <types>CatalogRef.Показатели</types>
+        <types>CatalogRef._ДемоПоказатели</types>
       </valueType>
       <view>
         <common>true</common>

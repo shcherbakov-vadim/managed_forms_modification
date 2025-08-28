@@ -29,11 +29,11 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.МОД_ОсновнаяРоль</defaultRoles>
   <vendor>Щербаков Вадим</vendor>
-  <version>1.0.3.1</version>
+  <version>1.0.3.2</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <copyright>
     <key>ru</key>
-    <value>Copyright (c) 2024, Щербаков Вадим, chtcherbakov.vadim@gmail.com</value>
+    <value>Copyright (c) 2024-2025, Щербаков Вадим, chtcherbakov.vadim@gmail.com</value>
   </copyright>
   <vendorInformationAddress>
     <key>ru</key>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1d7f38e-1377-4f3f-8e7e-ee9bcfc8426b">
-  <name>Конфигурация</name>
+  <name>МодификацияУправляемыхФорм</name>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="87ab449d-f149-46c4-84e5-5a121091f5e1"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="0b45815e-5382-45f6-9361-32645bd5aefb"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="6007bd71-c1b3-4d12-8ca6-ba1ec9c408da"/>
@@ -11,6 +11,8 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <vendor>Щербаков Вадим</vendor>
+  <version>1.0.3.2</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -21,6 +23,18 @@
     </functionality>
   </usedMobileApplicationFunctionalities>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>Copyright (c) 2024-2025, Щербаков Вадим, chtcherbakov.vadim@gmail.com</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/shcherbakov-vadim</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/shcherbakov-vadim/managed_forms_modification</value>
+  </configurationInformationAddress>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
@@ -36,8 +50,7 @@
   </languages>
   <commonModules>CommonModule.МОД_МодификацияУправляемыхФорм</commonModules>
   <commonModules>CommonModule.МОД_МодификацияУправляемыхФормВызовСервераПовтИсп</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
-  <catalogs>Catalog.Номенклатура</catalogs>
-  <catalogs>Catalog.Показатели</catalogs>
-  <documents>Document.Приход</documents>
+  <catalogs>Catalog._ДемоНоменклатура</catalogs>
+  <catalogs>Catalog._ДемоПоказатели</catalogs>
+  <documents>Document._ДемоПриход</documents>
 </mdclass:Configuration>

@@ -7,13 +7,13 @@
     <listType typeId="3f1bd23e-fdf8-42e0-aeca-a6c118d1ba9b" valueTypeId="8b0998ed-e223-4816-8bc6-39dcfe0da09e"/>
     <managerType typeId="ce48d63a-6a3d-49d5-8467-73aeae43e5e8" valueTypeId="ce0bd98c-6558-4496-b9b0-d2980b8052e4"/>
   </producedTypes>
-  <name>Приход</name>
+  <name>_ДемоПриход</name>
   <synonym>
     <key>ru</key>
-    <value>Приход</value>
+    <value>Демо: Приход</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.Приход.StandardAttribute.Number</inputByString>
+  <inputByString>Document._ДемоПриход.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -64,8 +64,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.Приход.Form.ФормаДокумента</defaultObjectForm>
-  <defaultListForm>Document.Приход.Form.ФормаСписка</defaultListForm>
+  <defaultObjectForm>Document._ДемоПриход.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document._ДемоПриход.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="f73d09fd-272a-4f5a-bc3c-2d4a9b7f7119">
@@ -140,7 +140,7 @@
         <value>Номенклатура</value>
       </synonym>
       <type>
-        <types>CatalogRef.Номенклатура</types>
+        <types>CatalogRef._ДемоНоменклатура</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -209,7 +209,7 @@
         <value>Номенклатура</value>
       </synonym>
       <type>
-        <types>CatalogRef.Номенклатура</types>
+        <types>CatalogRef._ДемоНоменклатура</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

@@ -375,10 +375,10 @@
        Приход.Товары.*,
        Приход.МоментВремени
  ИЗ 
-       Документ.Приход
+       Документ._ДемоПриход
  КАК 
        Приход</queryText>
-      <mainTable>Document.Приход</mainTable>
+      <mainTable>Document._ДемоПриход</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
