@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b88ff73c-5fd6-4185-b496-eca53b34cec1">
+  <producedTypes>
+    <managerType typeId="06796c5e-f4f1-4559-a3b0-b1a063bef638" valueTypeId="58f48048-6123-4dfb-9f9c-f13297fd6353"/>
+    <valueManagerType typeId="d40c3ce2-4fd5-430e-b59d-c5b20fa63ad1" valueTypeId="f228a930-5e14-4cc5-99d6-d30e34be8a76"/>
+    <valueKeyType typeId="94e8147f-764a-4d25-a22d-2045c8ce8125" valueTypeId="d061db79-3d7e-43fa-be05-a011c923ff77"/>
+  </producedTypes>
+  <name>_ДемоИспользоватьДополнительныеРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо использовать дополнительные расходы</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
