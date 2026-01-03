@@ -33,7 +33,7 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <copyright>
     <key>ru</key>
-    <value>Copyright (c) 2024-2025, Щербаков Вадим, chtcherbakov.vadim@gmail.com</value>
+    <value>Copyright (c) 2024-2026, Щербаков Вадим, chtcherbakov.vadim@gmail.com</value>
   </copyright>
   <vendorInformationAddress>
     <key>ru</key>
@@ -52,7 +52,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <sessionParameters>SessionParameter.МОД_АдресМакетаИзменений</sessionParameters>
-  <sessionParameters>SessionParameter.МОД_ИмяПоследнейФормы</sessionParameters>
+  <sessionParameters>SessionParameter.МОД_ПоследниеФормыМакеты</sessionParameters>
   <roles>Role.МОД_ОсновнаяРоль</roles>
   <commonModules>CommonModule.МОД_МодификацияУправляемыхФорм</commonModules>
   <dataProcessors>DataProcessor.МОД_МодификацияУправляемойФормы</dataProcessors>

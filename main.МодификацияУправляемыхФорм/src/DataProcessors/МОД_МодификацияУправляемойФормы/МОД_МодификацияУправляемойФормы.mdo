@@ -20,6 +20,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="da26e450-c205-44b5-87da-a88bf7bcbc11">
+    <name>ВыборИзСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор из списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <commands uuid="f311edc5-357e-4bd8-b504-7fce3ba45fdd">
     <name>МодификацияУправляемойФормы</name>
     <synonym>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41b50f04-ed4f-4a1f-b874-60fa5ddf28a5">
+  <name>МОД_ПоследниеФормыМакеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Последние формы макеты</value>
+  </synonym>
+  <type>
+    <types>FixedArray</types>
+  </type>
+</mdclass:SessionParameter>

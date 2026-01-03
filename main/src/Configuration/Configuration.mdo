@@ -25,7 +25,7 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <copyright>
     <key>ru</key>
-    <value>Copyright (c) 2024-2025, Щербаков Вадим, chtcherbakov.vadim@gmail.com</value>
+    <value>Copyright (c) 2019-2026, Щербаков Вадим, chtcherbakov.vadim@gmail.com</value>
   </copyright>
   <vendorInformationAddress>
     <key>ru</key>
@@ -48,6 +48,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonTemplates>CommonTemplate.МОД_Шаблон_ОбщиеРеквизиты</commonTemplates>
   <commonModules>CommonModule.МОД_МодификацияУправляемыхФорм</commonModules>
   <commonModules>CommonModule.МОД_МодификацияУправляемыхФормВызовСервераПовтИсп</commonModules>
   <constants>Constant._ДемоИспользоватьДополнительныеРасходы</constants>
