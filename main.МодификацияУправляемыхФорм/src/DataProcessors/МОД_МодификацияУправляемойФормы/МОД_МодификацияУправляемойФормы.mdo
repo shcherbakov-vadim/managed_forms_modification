@@ -29,6 +29,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="31de4bec-a2aa-4a8c-8016-026c9ec8a210">
+    <name>ВыборИмениОбласти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор имени области</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <commands uuid="f311edc5-357e-4bd8-b504-7fce3ba45fdd">
     <name>МодификацияУправляемойФормы</name>
     <synonym>

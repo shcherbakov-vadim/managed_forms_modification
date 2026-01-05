@@ -12,7 +12,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Щербаков Вадим</vendor>
-  <version>1.0.5.1</version>
+  <version>1.0.5.2</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
